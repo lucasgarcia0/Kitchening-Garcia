@@ -1,0 +1,128 @@
+.main{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: flex-start;
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+
+.cuenta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegador {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+}
+.titulo {
+    display: flex;
+    background-color: #444;
+    color: #e5e4e4;
+    height: 43px;
+    width: 140px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.logo img {
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(./images_restaurant/bg-body.png);
+}
+.pollo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen h2 {
+    font-size: 20px;
+}
+
+.imagen h3 {
+    display: flex;
+    background-color: #444;
+    color: #f3f3f3;
+    height: 37px;
+    width: 85px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagen p{
+    display: flex;
+    margin-top: -8px;
+    font-size: 14px;
+}
+
+.pie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(200,0,0);
+    margin-top: 30px;
+    height: 40px;
+    border-start-start-radius:25%;
+    border-start-end-radius: 25%;
+    
+}
+.foot {
+    display: flex;
+    font-size: 12px;
+    margin-left: 8px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid white;
+}
